@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>EasyReminder Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Eran Jehassy <br> Din Salman</b><b><br>Tali Azulay</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#Introduction" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Introduction</a> 
+    <a href="#Stakeholders" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Stakeholders</a> 
+    <a href="#Questionnaire" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Questionnaire</a>
+    <a href="#Requirements" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Requirements</a>
+    <a href="#Alternatives" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Alternatives</a>
+    <a href="#Quality and Economic criteria" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Quality & Economic criteria</a> 
+    <a href="#Risk Analysis" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Risk Analysis</a>
+    <a href="#MOV" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MOV</a>
+    <a href="#Architecture" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Architecture</a>
+    <a href="#Boundary Objects/Spanners" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Boundary Objects/Spanners</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="github">
+    <h1 class="w3-jumbo"><b>EasyReminder</b></h1>
+  </div>
+
+  <!-- Introduction -->
+  <div class="w3-container" id="Introduction" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Introduction</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p><br>Our product is an app designed for adults aged 65+.</br>
+		The application is a system for managing a diary and reminders adapted to this population,</br>
+		the application will make it possible to schedule events, clinic appointments and more in a simple and easy way.</br>
+		In addition, the system will enable the provision of smart reminders according to the type of event and the user's preferences.
+        <br><b>The purpose of the system</b> is to make it as easy as possible for the user to manage meetings and personal events <br>and to prevent situations of forgetting and missing these events.</p>
+  </div>
+
+  <!-- Stakeholders -->
+  <div class="w3-container" id="Stakeholders" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Stakeholders</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p><b>Main user- </b>elderly population (65+). <br>
+       <b>Third party entities-</b>Pharmacies, Sports clubs, Community Centers, clinics and more. <br>        
+       <b>Software Developers-</b>system development and maintenance, updates, upgrades and additions. <br></p>
+  </div>
+
+  <!-- questionnaire -->
+  <div class="w3-container" id="Questionnaire" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Questionnaire</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+	<p>The purpose of the questionnaire is to collect detailed information from the target audience of the application that we would like to develop.
+	<br>The questionnaire included questions about the intended goals of the application and through it we understood the needs and requirements of our main users.
+	<br> <b>Link to the questionnaire-</b> <a href="https://docs.google.com/forms/d/1MSV_xUn0eiYVJq3dQ46NsXdQj0OCCBgrKesApaG-nJ8/edit?ts=64973beb">EasyReminder questionnaire</a> </p>
+  </div>
+
+  <!-- Requirements -->
+  <div class="w3-container" id="Requirements" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Requirements</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p> <br><b>Inclusive-</b></br>An easy and convenient interface to operate that will allow easy orientation even for those who have difficulty with technology using a variety of languages,
+		<br> readable visual icons and shortcuts of actions. </br>
+		<br><b>Fairness-</b><br>The system will allow a voice reading of events, a large font change in the diary and a special color scheme for the color blind.<br>
+        <br><b>Privacy-<br></b>The private data of the system will be confidential and will not be shown to third party entities.
+  </div>
+
+  <!-- Alternatives -->
+  <div class="w3-container" id="Alternatives" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Alternatives</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p>The goal is to identify potential solutions that meet the project's objectives and requirements and to select the most appropriate one to proceed with.</p> <br> <br>
+    
+    <img src="alternatives.jpg" alt="Alternatives Image">
+    
+    
+    
+  </div>
+  
+  <!-- Quality and Economic criteria -->
+  <div class="w3-container" id="Quality and Economic criteria" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Quality and Economic criteria</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+    <p> <b><em> Quality Criteria</em></b><br><br>
+		<b>Data Security-</b><br>The user will only be able to give access to family members.
+			In addition, we will limit the use so that external entities cannot access and use private information (such as crossing a full name with an ID).<br>
+        <b>Reliability-</b>
+		<br>    1. Make sure that an event that a user enters into the diary is indeed entered with all the relevant details.
+		<br>	2. Smart reminders do occur depending on the classification of the event.
+        <br>	3. Scanning the event using the barcode enters the event properly.
+        <br><b>Up-to-date information-</b>
+        <br>We will make sure that the organization of an event takes place successfully and its details are updated accordingly.
+			As soon as a collision between events occurs - the system knows how to recognize it and send an alert.
+        <br><b>Simplicity of system operation-</b>
+		<br>The application is intended for the adult population, therefore we will emphasize the simplicity of operation which will be expressed by changing the font size as needed, colors and voice readings of events.
+        <br><br>
+      	<b><em>Economic Criteria</em></b><br>
+        <br><b>Development and operating costs-</b>
+		<br>Server maintenance, cloud usage costs, encryption costs and information security.
+  </div>
+
+  <!-- Risk Analysis -->
+  <div class="w3-container" id="Risk Analysis" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>Risk Analysis</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+	The risks are listed in the following table:<br><br>
+    <img src="risks.jpg" alt="risks Image">
+
+  </div>
+
+  <!-- MOV -->
+  <div class="w3-container" id="MOV" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-blue"><b>MOV</b></h1>
+    <hr style="width:50px;border:5px solid blue" class="w3-round">
+	<img src="MOV.jpg" alt="MOV Image">
+  </div>
+
+  <!-- Architecture -->
+<div class="w3-container" id="Architecture" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-blue"><b>Architecture</b></h1>
+  <hr style="width:50px;border:5px solid blue" class="w3-round">
+  <p><b>UI layer-</b>
+  <br>The layer where the user sees all the actions that can be performed in the application.
+  <br><b>Logic layer-</b>
+  <br>Contain the functionality of the application.
+  <br><b>Data layer-</b>
+  <br>Contain our database or data storage service.
+  <br><br>
+  <img src="archi.jpg" alt="archi Image">
+  </p>
+</div>
+
+<!-- Boundary Objects/Spanners -->
+<div class="w3-container" id="Boundary Objects/Spanners" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-blue"><b>Boundary Objects/Spanners</b></h1>
+  <hr style="width:50px;border:5px solid blue" class="w3-round">
+  <img src="boundary.jpg" alt="boundary Image">
+    
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
